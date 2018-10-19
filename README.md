@@ -6,7 +6,7 @@ Examen Objetos
 ## Pregunta 1
 ## Pregunta 2
 ## Pregunta 3
-## La variable shapes es una lista de formas y contiene los cuatro objetos que indica el ejemplo. Cada objeto viene de una clase distinta, aunque todas las clases con las que están hechos estos objetos heredan de la interfaz Ishape. 
+##La variable shapes es una lista de formas y contiene los cuatro objetos que indica el ejemplo. Cada objeto viene de una clase distinta, aunque todas las clases con las que están hechos estos objetos heredan de la interfaz Ishape. 
 ##Cada objeto tiene un color distinto. Este color se lo da la propiedad color dentro de cada una de las clases (la propiedad color se comporta de manera distinta según la clase en la que está funcionando).
 ##Una vez explicada que es la variable shapes y qué objetos contiene, con un foreach que dibuja cada una d elas formas que hay en la lista shapes.
 
@@ -20,7 +20,7 @@ Examen Objetos
 ##Después al objeto que nos interese de la clase a la que le hemos puesto el Dispose le hacemos el using (nombre_del_objeto){}. De esta manera saltará el método Dispose y se podrán eliminar recursos.
 
 ## Pregunta 5
-## El principio SOLID que se está cumpliendo es la I. Este principio se denomina “Principio de segregación de interfaz” y establece que es mejor utilizar varias interfaces con una función específica cada una que una sola interfaz general.
-## El objetivo de que haya muchas interfaces específicas es que solo se usen aquellas que tengan los métodos que realmente se necesitan, ignorando a las demás.
+##El principio SOLID que se está cumpliendo es la I. Este principio se denomina “Principio de segregación de interfaz” y establece que es mejor utilizar varias interfaces con una función específica cada una que una sola interfaz general.
+##El objetivo de que haya muchas interfaces específicas es que solo se usen aquellas que tengan los métodos que realmente se necesitan, ignorando a las demás.
 
 
