@@ -1,17 +1,16 @@
 ﻿using System;
 
-
-public class Ejercicio3
+public class Ejercicio4
 {
 	public Class1()
 	{
-        var shapes = new List<IShape>()
-            {
-                new Rectangulo(Color.Rojo),
+        using (var shapes = new List<IShape>()
+        {
+            new Rectangulo(Color.Rojo),
                 new Circulo(Color.Azul),
                 new Rectangulo(Color.Verde),
                 new Flecha(Color.Azul)
-            };
+             }) { } ;
         foreach (var shape in shapes)
         {
             shape.Draw(Console.WriteLine);
@@ -28,7 +27,7 @@ public interface IShape
 }
 
 public enum Color { Rojo, Verde, Azul }
-public class Shape : IShape
+public class Shape : IShape, IDisposable
 {
     Color Color { get; set; }
     public virtual void Draw()
@@ -75,3 +74,9 @@ public class Flecha : Shape
     }
 }
 
+public interface IDisposable
+{
+    public void Dispose()
+    {
+    }
+}
